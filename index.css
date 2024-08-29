@@ -1,0 +1,273 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Rubik", sans-serif;
+}
+
+body {
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+.first {
+    height: 100vh;
+    width: 100%;
+    background-image: url('https://cdn.dribbble.com/users/1338391/screenshots/15339530/media/cb11372488dc560088b3e7df16546b65.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+nav {
+    height: 12.5vh;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(10px);
+    display: flex;
+    align-items: center;
+    padding: 0 50px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    position: fixed;
+}
+
+.logo {
+    display: flex;
+}
+
+.logo h2 {
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.logo img {
+    height: 60px;
+}
+
+.nav-text {
+    margin-left: auto;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.li {
+    font-size: 18px;
+    font-weight: 500;
+    color: #333;
+    text-decoration: none;
+    padding: 5px 10px;
+    transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+.li:hover {
+    color: white;
+    background-color: #009688;
+    border-radius: 5px;
+}
+
+.first-text {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 87.5vh;
+    padding: 0 50px;
+    color: white;
+    text-shadow: 0 2px 5px rgba(0, 0, 0, 0.7);
+}
+
+.first-text-content {
+    max-width: 50%;
+}
+
+.first-text-content h1 {
+    font-size: 3.5rem;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+.first-text-content h2 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+
+.btn {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #009688;
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 500;
+    border-radius: 5px;
+    transition: background-color 0.5s ease;
+}
+
+.btn:hover {
+    background-color: #00796b;
+}
+
+.earth-moving {
+    max-width: 40%;
+    height: auto;
+}
+
+.earth-moving img {
+    width: 100%;
+    height: auto;
+}
+
+.second {
+    height: 45vh;
+    width: auto;
+    background-color: whitesmoke;
+    text-align: center;
+}
+
+.second h1 {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.second p {
+    font-size: 25px;
+    font-weight: 500;
+    color: #3f3f3f;
+}
+
+.third {
+    height: 60vh;
+    width: auto;
+    background-color: #009688;
+    display: flex;
+    justify-content: space-around;
+}
+
+.third-text {
+    width: 45%; 
+    height: auto;
+    text-align: center;
+}
+
+.third-text h3 {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.third-photo {
+    width: 45%;
+    height: auto;
+}
+
+.third-photo img {
+    margin-left: 160px;
+    margin-top: 90px;
+}
+
+.fourth {
+    height: 87vh;
+    width: auto;
+    background-color: rgb(177, 177, 177);
+}
+
+.mission {
+    padding: 50px;
+    text-align: center;
+    background-color: #009688;
+    color: white;
+}
+
+.mission h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.services {
+    padding: 50px;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+.service-cards {
+    display: flex;
+    justify-content: space-around;
+}
+
+.service-card {
+    background-color: white;
+    padding: 20px;
+    width: 30%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+.service-card i {
+    font-size: 2.5rem;
+    color: #009688;
+    margin-bottom: 10px;
+}
+
+.service-card h3 {
+    margin-bottom: 10px;
+}
+
+/* Testimonials Section */
+.testimonials {
+    padding: 50px;
+    background-color: #00796b;
+    color: white;
+    text-align: center;
+}
+
+.testimonial-slider {
+    display: flex;
+    overflow-x: auto;
+}
+
+.testimonial {
+    min-width: 300px;
+    padding: 20px;
+    margin-right: 20px;
+    background-color: white;
+    color: #333;
+    border-radius: 20px;
+}
+
+/* Footer Section */
+footer {
+    padding: 20px;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer-content {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+}
+
+.footer-logo {
+    margin-left: 510px;
+}
+
+.footer-logo img {
+    height: 50px;
+}
+
+.footer-links ul {
+    display: flex;
+    gap: 20px
+}

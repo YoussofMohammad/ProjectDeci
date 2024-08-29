@@ -1,0 +1,143 @@
+/* Import Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Rubik", sans-serif;
+}
+
+body {
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+header nav {
+    height: 12.5vh;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(10px);
+    display: flex;
+    align-items: center;
+    padding: 0 50px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    position: fixed;
+}
+
+.logo {
+    display: flex;
+}
+
+.logo h2 {
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.logo img {
+    height: 60px;
+}
+
+.nav-text {
+    margin-left: auto;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.li {
+    font-size: 18px;
+    font-weight: 500;
+    color: #333;
+    text-decoration: none;
+    padding: 5px 10px;
+    transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+.li:hover {
+    color: white;
+    background-color: #009688;
+    border-radius: 5px;
+}
+
+.plant-container {
+    padding-top: 15vh;
+    text-align: center;
+    padding: 40px 50px;
+}
+
+.plant-container h1 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    color: #009688;
+    margin-top: 50px;
+}
+
+.plant-content {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.plant-img {
+    max-width: 40%;
+    height: auto;
+    border-radius: 10px;
+    height: 270px;
+    width: 330px;
+}
+
+.plant-details {
+    max-width: 50%;
+    text-align: left;
+}
+
+.plant-details h2, .plant-details h3 {
+    color: #009688;
+    margin-bottom: 15px;
+}
+
+.plant-details p, .plant-details ul {
+    font-size: 1.1rem;
+    color: #333;
+    line-height: 1.8;
+}
+
+.plant-details ul {
+    margin-top: 10px;
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+footer {
+    padding: 20px;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-content {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    margin-left: 510px;
+}
+
+.footer-logo img {
+    height: 50px;
+    margin-right: 15px;
+}
